@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/tablet-portrait</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/tablet-portrait" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="tablet-portrait-sharp">
+            <g transform="translate(3.000000, 0.000000)">
+                <path d="M17.0894942,0 L0.840466926,0 C0.37628986,0 0,0.37628986 0,0.840466926 L0,23.0661479 C0,23.5303249 0.37628986,23.9066148 0.840466926,23.9066148 L17.0894942,23.9066148 C17.5536712,23.9066148 17.9299611,23.5303249 17.9299611,23.0661479 L17.9299611,0.840466926 C17.9299611,0.37628986 17.5536712,0 17.0894942,0 Z M1.68093385,20.9182879 L1.68093385,2.98832685 L16.2490272,2.98832685 L16.2490272,20.9182879 L1.68093385,20.9182879 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

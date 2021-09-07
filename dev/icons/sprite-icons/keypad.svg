@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/keypad</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/keypad" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="keypad-sharp">
+            <g transform="translate(4.000000, 1.000000)">
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="0" y="0" width="4.48249027" height="4.48249027" rx="0.373540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="5.9766537" y="0" width="4.48249027" height="4.48249027" rx="0.373540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="11.9533074" y="0" width="4.48249027" height="4.48249027" rx="0.373540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="0" y="5.9766537" width="4.48249027" height="4.48249027" rx="0.373540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="5.9766537" y="5.9766537" width="4.48249027" height="4.48249027" rx="0.373540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="11.9533074" y="5.9766537" width="4.48249027" height="4.48249027" rx="0.373540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="0" y="11.9533074" width="4.48249027" height="4.48249027" rx="0.373540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="5.9766537" y="11.9533074" width="4.48249027" height="4.48249027" rx="0.373540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="5.9766537" y="17.9299611" width="4.48249027" height="4.48249027" rx="0.373540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="11.9533074" y="11.9533074" width="4.48249027" height="4.48249027" rx="0.373540856"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

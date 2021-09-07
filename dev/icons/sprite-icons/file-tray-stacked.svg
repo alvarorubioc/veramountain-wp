@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/file-tray-stacked</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/file-tray-stacked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="file-tray-stacked-sharp">
+            <g transform="translate(2.000000, 1.000000)">
+                <path d="M19.4241245,0 L1.49416342,0 L0,7.47081712 L0,14.1945525 L20.9182879,14.1945525 L20.9182879,7.47081712 L19.4241245,0 Z M18.8638132,7.47081712 L13.4474708,7.47081712 C13.4474708,9.12122447 12.1095513,10.459144 10.459144,10.459144 C8.80873662,10.459144 7.47081712,9.12122447 7.47081712,7.47081712 L2.05447471,7.47081712 L3.08171206,1.96108949 L17.8365759,1.96108949 L18.8638132,7.47081712 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M13.4474708,15.688716 C13.4474708,17.3391233 12.1095513,18.6770428 10.459144,18.6770428 C8.80873662,18.6770428 7.47081712,17.3391233 7.47081712,15.688716 L0,15.688716 L0,22.4124514 L20.9182879,22.4124514 L20.9182879,15.688716 L13.4474708,15.688716 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

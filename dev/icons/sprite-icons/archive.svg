@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/archive</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/archive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="archive-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="0" y="0" width="20.9182879" height="3.73540856" rx="0.560311284"></rect>
+                <path d="M1.49416342,5.22957198 L1.49416342,18.3035019 C1.49416342,18.9224047 1.99588324,19.4241245 2.61478599,19.4241245 L18.3035019,19.4241245 C18.9224047,19.4241245 19.4241245,18.9224047 19.4241245,18.3035019 L19.4241245,5.22957198 L1.49416342,5.22957198 Z M10.459144,15.9982879 L6.41182879,11.9533074 L7.47081712,10.8943191 L9.71206226,13.1378988 L9.71206226,7.47081712 L11.2062257,7.47081712 L11.2062257,13.1378988 L13.4507393,10.8933852 L14.5064591,11.9505058 L10.459144,15.9982879 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/compass</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/compass" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="compass-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="9.71206226" cy="9.71206226" r="1.12062257"></circle>
+                <path d="M9.71206226,0 C4.35688716,0 0,4.35688716 0,9.71206226 C0,15.0672374 4.35688716,19.4241245 9.71206226,19.4241245 C15.0672374,19.4241245 19.4241245,15.0672374 19.4241245,9.71206226 C19.4241245,4.35688716 15.0672374,0 9.71206226,0 Z M11.9533074,11.9533074 L4.48249027,14.9416342 L7.47081712,7.47081712 L14.9416342,4.48249027 L11.9533074,11.9533074 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

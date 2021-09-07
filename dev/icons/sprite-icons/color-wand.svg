@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/color-wand</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/color-wand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="color-wand-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" transform="translate(8.129679, 8.130117) rotate(-45.000000) translate(-8.129679, -8.130117) " x="5.91107993" y="5.55011673" width="4.43719844" height="5.16"></rect>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="12.5794553 9.44171206 9.44217899 12.5794553 17.7431907 20.9182879 20.9182879 17.7431907"></polygon>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="0" y="6.72373541" width="3.73540856" height="1.49416342"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" transform="translate(3.512310, 3.512218) rotate(-45.000000) translate(-3.512310, -3.512218) " x="2.76522855" y="1.64451362" width="1.49416342" height="3.73540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="6.72373541" y="0" width="1.49416342" height="3.73540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" transform="translate(11.435860, 3.512404) rotate(-45.000000) translate(-11.435860, -3.512404) " x="9.56815559" y="2.76532199" width="3.73540856" height="1.49416342"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" transform="translate(3.512124, 11.435768) rotate(-45.000000) translate(-3.512124, -11.435768) " x="1.64442018" y="10.6886858" width="3.73540856" height="1.49416342"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

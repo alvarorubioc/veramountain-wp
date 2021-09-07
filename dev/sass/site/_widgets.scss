@@ -1,0 +1,34 @@
+.widget {
+	margin: 0 0 1.5em;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+
+	.widget-title {
+		margin-bottom: $space__unit;
+	}
+}
+
+aside#secondary {
+	padding: $space-xs;
+	
+	background: white;
+	
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			padding: $space-xxs 0 0;
+		}
+
+	}
+
+	a {
+		color: $color__text-main;
+		&:hover {color: $color__link-hover;}
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/water</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/water" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="water-sharp">
+            <g transform="translate(5.000000, 2.000000)">
+                <path d="M6.72373541,0.0424902724 C6.72373541,0.0424902724 0,7.43392996 0,12.6635019 C0,16.7892607 2.59797665,19.3872374 6.72373541,19.3872374 C10.8494942,19.3872374 13.4474708,16.7892607 13.4474708,12.6635019 C13.4474708,7.43392996 6.72373541,0.0424902724 6.72373541,0.0424902724 Z M7.47081712,16.9592218 L7.47081712,15.8385992 C9.01732735,15.8367981 10.2705724,14.583553 10.2723735,13.0370428 L11.3929961,13.0370428 C11.39068,15.2022423 9.63601666,16.9569057 7.47081712,16.9592218 L7.47081712,16.9592218 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

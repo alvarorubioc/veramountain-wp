@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/cube</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/cube" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="cube-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="0 6.44357977 0 15.6382879 8.96498054 20.9182879 8.96498054 11.766537"></polygon>
+                <polygon id="Shape" fill="#000000" fill-rule="nonzero" points="10.459144 20.9182879 19.4241245 15.6382879 19.4241245 6.44357977 10.459144 11.766537"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="18.6770428 5.22957198 9.71206226 0 0.747081712 5.22957198 9.71206226 10.459144"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

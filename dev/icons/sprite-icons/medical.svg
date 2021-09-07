@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/medical</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/medical" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="medical-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="14.0031128 9.71206226 19.0505837 6.79844358 16.8093385 2.91361868 11.766537 5.82723735 11.766537 0 7.28404669 0 7.28404669 5.82723735 2.24124514 2.91361868 0 6.79844358 5.04747082 9.71206226 0 12.6256809 2.24124514 16.5105058 7.28404669 13.5968872 7.28404669 19.4241245 11.766537 19.4241245 11.766537 13.5968872 16.8093385 16.5105058 19.0505837 12.6256809"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

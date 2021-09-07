@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/refresh</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/refresh" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g filter="url(#filter-1)" id="refresh-sharp">
+            <g transform="translate(5.000000, 3.000000)">
+                <path d="M10.459144,4.10894942 C10.459144,4.10894942 11.5965759,3.54863813 7.47081712,3.54863813 C3.34479876,3.54863813 0,6.89343689 0,11.0194553 C0,15.1454736 3.34479876,18.4902724 7.47081712,18.4902724 C11.5968355,18.4902724 14.9416342,15.1454736 14.9416342,11.0194553" id="Path" stroke="#000000" stroke-width="1.49416342"></path>
+                <polyline id="Path" stroke="#000000" stroke-width="1.49416342" points="7.47081712 0 11.2062257 3.73540856 7.47081712 7.47081712"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

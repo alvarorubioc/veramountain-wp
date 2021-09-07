@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/map</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="map-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <path d="M13.8074708,4.61929961 L7.09727626,0.326848249 L0,5.22957198 L0,20.9182879 L7.11081712,16.2989883 L13.8210117,20.5914397 L20.9182879,15.688716 L20.9182879,0 L13.8074708,4.61929961 Z M13.07393,18.1634241 L7.84435798,14.8015564 L7.84435798,2.75486381 L13.07393,6.11673152 L13.07393,18.1634241 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

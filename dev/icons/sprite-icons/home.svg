@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/home</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="home-sharp">
+            <g transform="translate(0.000000, 2.000000)">
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="19.4241245 6.66490272 19.4241245 0.747081712 15.688716 0.747081712 15.688716 3.47626459 11.9533074 0 0 11.2062257 2.98832685 11.2062257 2.98832685 20.9182879 9.71206226 20.9182879 9.71206226 13.4474708 14.1945525 13.4474708 14.1945525 20.9182879 20.9182879 20.9182879 20.9182879 11.2062257 23.9066148 11.2062257"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/link</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/link" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="round">
+        <g filter="url(#filter-1)" id="link-sharp">
+            <g transform="translate(2.000000, 8.000000)">
+                <path d="M7.12809339,8.96498054 L4.48249027,8.96498054 C2.00687925,8.96498054 0,6.95810129 0,4.48249027 C0,2.00687925 2.00687925,0 4.48249027,0 L7.06972763,0" id="Path" stroke="#000000" stroke-width="2.24124514"></path>
+                <path d="M12.3543969,0 L14.9416342,0 C17.4172453,0 19.4241245,2.00687925 19.4241245,4.48249027 C19.4241245,6.95810129 17.4172453,8.96498054 14.9416342,8.96498054 L12.2960311,8.96498054" id="Path" stroke="#000000" stroke-width="2.24124514"></path>
+                <line x1="5.65307393" y1="4.50914397" x2="13.8644358" y2="4.50914397" id="Path" stroke="#000000" stroke-width="2.24124514"></line>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/contrast</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/contrast" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="contrast-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <path d="M10.459144,0 C4.68280156,0 0,4.68280156 0,10.459144 C0,16.2354864 4.68280156,20.9182879 10.459144,20.9182879 C16.2354864,20.9182879 20.9182879,16.2354864 20.9182879,10.459144 C20.9182879,4.68280156 16.2354864,0 10.459144,0 Z M4.51610895,16.402179 C2.11235967,13.9984592 1.39327761,10.3834353 2.69417336,7.24280644 C3.99506911,4.10217754 7.05974996,2.05447471 10.459144,2.05447471 L10.459144,18.8638447 C8.22887081,18.8699321 6.08884691,17.9835237 4.51610895,16.402179 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

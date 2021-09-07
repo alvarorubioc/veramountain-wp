@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/cloud-circle</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/cloud-circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="cloud-circle-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <path d="M9.71206226,0 C4.34848249,0 0,4.34848249 0,9.71206226 C0,15.075642 4.34848249,19.4241245 9.71206226,19.4241245 C15.075642,19.4241245 19.4241245,15.075642 19.4241245,9.71206226 C19.4241245,4.34848249 15.075642,0 9.71206226,0 Z M12.9805447,13.07393 L6.91050584,13.07393 C5.36964981,13.07393 4.10894942,12 4.10894942,10.459144 C4.10894942,8.86178988 5.3229572,7.9844358 6.72373541,7.84435798 C7.06365759,6.72840467 8.10116732,5.60311284 9.71206226,5.60311284 C11.4163424,5.60311284 12.8661479,6.87455253 13.07393,8.96498054 C14.0773541,9.01727626 15.3151751,9.62287938 15.3151751,11.0194553 C15.3151751,12.4333074 14.2645914,13.07393 12.9805447,13.07393 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

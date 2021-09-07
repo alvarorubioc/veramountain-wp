@@ -1,0 +1,88 @@
+@mixin card {
+    background: $color__white;
+    box-shadow: 0 16px 24px 0 rgba(42,19,18,0.06);
+    position: relative;
+    margin-bottom: $space-xs;
+
+    .card-image {
+        position: relative;
+        margin: 0 $space-xs 0 0;
+        background-color: $color__secondary;
+
+        a:hover {
+            mix-blend-mode: multiply;
+            opacity: .3;
+            transition: .3s ease;
+            background-color: $color__secondary;
+            display: block;
+        }
+        
+        img {
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+            display: block;
+            min-height: 200px;
+            width: 100%;
+        }
+    }
+
+    .card-footer {
+        padding: 0 $space-xs $space-xs $space-xs;
+        display: flex;
+    }
+    
+    .card-content {
+        padding: $space-xs;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    svg {
+        fill: $color__primary;    
+    }
+}
+
+.card {
+    @include card;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 1.5em);
+
+    .card-content {
+        flex: 1;
+
+    }
+}
+
+
+.card--horizontal {
+    @include card;
+    flex-direction: row;
+    display: flex;
+    @include breakpoint(mobile) {
+        flex-direction: column;
+    } 
+    
+    .card-image {
+        flex-basis: 50%; 
+        a {display: flex;}
+        .post-thumbnail {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .card-content {
+        flex-basis: 60%;
+        padding: $space-xs;
+
+        .text-caption {
+            margin-bottom: $space-xxs;
+        }
+    }
+    
+}
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/crop</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/crop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="crop-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="6.25680934 14.6614786 6.25680934 0 4.20233463 0 4.20233463 4.20233463 0 4.20233463 0 6.25680934 4.20233463 6.25680934 4.20233463 16.7159533 14.6614786 16.7159533 14.6614786 20.9182879 16.7159533 20.9182879 16.7159533 16.7159533 20.9182879 16.7159533 20.9182879 14.6614786"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="14.6614786 13.4474708 16.7159533 13.4474708 16.7159533 4.20233463 7.47081712 4.20233463 7.47081712 6.25680934 14.6614786 6.25680934"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

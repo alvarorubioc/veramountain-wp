@@ -1,0 +1,8 @@
+#cta {
+    margin: 48px;
+	@include breakpoint(mobile) {
+		margin: 48px 24px;
+    }
+    background-attachment: fixed;
+
+}

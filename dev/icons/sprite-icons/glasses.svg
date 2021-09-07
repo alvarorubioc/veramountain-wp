@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/glasses</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/glasses" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="glasses-sharp">
+            <g transform="translate(1.000000, 8.000000)">
+                <path d="M22.4124514,0 L0,0 L0,2.98832685 L0.991750973,2.98832685 L1.572607,8.21789883 L9.59766537,8.21789883 L10.459144,3.04996109 L10.459144,2.98832685 C10.459144,2.57572501 10.7936238,2.24124514 11.2062257,2.24124514 C11.6188275,2.24124514 11.9533074,2.57572501 11.9533074,2.98832685 L11.9533074,3.04996109 L12.814786,8.21789883 L20.8398444,8.21789883 L21.4207004,2.98832685 L22.4124514,2.98832685 L22.4124514,0 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

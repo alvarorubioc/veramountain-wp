@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/notifications-off</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/notifications-off" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="notifications-off-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" transform="translate(10.038848, 10.459144) rotate(-45.000000) translate(-10.038848, -10.459144) " x="9.29176678" y="-2.96638132" width="1.49416342" height="26.8510506"></rect>
+                <path d="M10.0389105,20.9182879 C11.5235063,20.9168027 12.8666398,20.037261 13.4614786,18.6770428 L6.61634241,18.6770428 C7.21118126,20.037261 8.55431472,20.9168027 10.0389105,20.9182879 L10.0389105,20.9182879 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M3.3151751,9.12700389 L3.3151751,11.9533074 L1.07392996,14.9416342 L1.07392996,17.1828794 L13.5931518,17.1828794 L3.49587549,7.08560311 C3.3725602,7.75900666 3.31206685,8.44240961 3.3151751,9.12700389 L3.3151751,9.12700389 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M19.0038911,14.9416342 L16.7626459,11.9533074 L16.7626459,9.12700389 C16.7626459,5.83657588 15.4851362,2.97011673 12.2801556,2.24124514 L11.9066148,0 L8.17120623,0 L7.79766537,2.24124514 C7.09547977,2.39302002 6.42995648,2.68128124 5.83891051,3.08964981 L19.0062257,16.256965 L19.0038911,14.9416342 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

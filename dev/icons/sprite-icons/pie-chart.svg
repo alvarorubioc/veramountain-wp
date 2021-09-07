@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/pie-chart</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/pie-chart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="pie-chart-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <path d="M1.26070039,15.4127626 L0.956731518,14.7315175 C-0.491614181,11.4951433 -0.201697029,7.74536786 1.72690829,4.77008558 C3.65551361,1.7948033 6.96015998,-0.000796966981 10.5058366,-2.65185986e-07 L11.2529183,-2.65185986e-07 L11.2529183,10.9433463 L1.26070039,15.4127626 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M12.7470817,1.60902724 L12.7470817,11.911751 L2.97058366,16.2854475 C4.73958446,19.1631523 7.87496813,20.9169733 11.2529183,20.9182879 C16.6080934,20.9182879 20.9649805,16.5614008 20.9649805,11.2062257 C20.9649805,6.35906615 17.3953307,2.32996109 12.7470817,1.60902724 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

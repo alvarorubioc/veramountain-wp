@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/aperture-sharp</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/aperture-sharp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="aperture-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="7.84435798 0 13.8905837 5.98505837 13.8905837 0"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="6.23206226 0.484669261 1.49416342 4.0155642 9.71206226 4.0155642"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="13.4474708 13.8210117 19.4241245 13.8210117 19.4241245 7.84435798"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="18.9571984 6.25680934 15.4085603 1.49416342 15.4085603 9.71206226"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="0 5.50972763 0 11.4863813 5.9766537 5.50972763"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="13.1673152 18.9571984 17.9299611 15.4085603 9.71206226 15.4085603"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="0.46692607 13.1673152 4.0155642 17.9299611 4.0155642 9.71206226"></polygon>
+                <path d="M13.8905837,8.13011673 L11.2968093,5.54054475 L8.12731518,5.54054475 L5.53354086,8.13011673 L5.53354086,11.2940078 L8.13058366,13.8863813 C8.1511284,13.8863813 8.17167315,13.8835798 8.19268482,13.8835798 L11.2968093,13.8835798 L13.8905837,11.2940078 L13.8905837,8.13011673 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="5.50879377 13.4516732 5.50972763 19.4241245 11.4863813 19.4241245"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

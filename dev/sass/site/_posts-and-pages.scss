@@ -1,0 +1,68 @@
+.bg-hero {
+	background: url("./assets/img/bg.png") no-repeat left top fixed;
+	display: flow-root;
+}
+
+#page {
+	background-color: $color__bg;
+}
+
+.bg-trophy {
+	background: url("./assets/img/bg.png") no-repeat right top fixed;
+	margin-top: -124px;
+	position: relative;
+
+	@include breakpoint(tablet) {
+		background: #fff;
+		margin-top: 0;
+	}
+
+	.entry-info, .entry-content {
+		padding-top: 124px;
+	}
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.sticky-box {
+	position: sticky;
+	top: $space-md;
+
+	ul {
+		line-height: 2;
+	}
+}
+
+.smooth-scrool {
+	padding-top: 70px;
+  margin-top: -70px;
+}
+
+#moove_gdpr_cookie_info_bar {
+	min-height: 400px;
+	padding: 100px 0;
+}
+
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton, #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton {
+    font-size: 16px;
+    border-radius: 0px;
+}
+
+
+#myBtnContainer {
+	padding-left: calc(1.5 * 1rem);
+    padding-top: calc(1.5 * 1rem);
+
+	@include breakpoint(tablet) {
+		display: block;
+		padding-left: 0;
+	}
+}

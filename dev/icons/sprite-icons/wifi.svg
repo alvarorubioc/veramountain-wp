@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/wifi</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/wifi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="wifi-sharp">
+            <g transform="translate(3.000000, 5.000000)">
+                <path d="M12.5458366,9.43190661 C10.5113782,7.62357718 7.44566462,7.62357718 5.41120623,9.43190661" id="Path" stroke="#000000" stroke-width="1.96108949" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M15.3964202,6.58365759 C11.7841129,3.20588602 6.17199608,3.20588602 2.55968872,6.58365759" id="Path" stroke="#000000" stroke-width="1.96108949" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M17.9299611,3.43284047 C12.8293327,-1.11734555 5.12677626,-1.11734555 0.0261478599,3.43284047" id="Path" stroke="#000000" stroke-width="1.96108949" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M11.0507393,12.4202335 L8.96498054,14.7081712 L6.89463035,12.4202335 C7.39707306,11.786269 8.16165866,11.4166395 8.97058366,11.4166395 C9.77950866,11.4166395 10.5440943,11.786269 11.046537,12.4202335 L11.0507393,12.4202335 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

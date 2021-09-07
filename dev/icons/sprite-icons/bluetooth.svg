@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/bluetooth</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/bluetooth" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="bluetooth-sharp">
+            <g transform="translate(5.000000, 0.000000)">
+                <path d="M13.1864591,7.57027237 L5.64980545,0.033618677 L5.64980545,9.96980545 L1.25276265,6.20077821 L0.0387548638,7.61883268 L5.14879377,12 L0.0373540856,16.3811673 L1.25136187,17.7992218 L5.64980545,14.0301946 L5.64980545,23.9663813 L13.1864591,16.4297276 L8.0185214,12 L13.1864591,7.57027237 Z M7.51750973,4.54225681 L10.44,7.46474708 L7.51750973,9.96980545 L7.51750973,4.54225681 Z M10.4395331,16.5352529 L7.51750973,19.4577432 L7.51750973,14.0301946 L10.4395331,16.5352529 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

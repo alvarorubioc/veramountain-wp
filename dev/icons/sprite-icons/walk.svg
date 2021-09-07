@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/walk</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/walk" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="walk-sharp">
+            <g transform="translate(6.000000, 1.000000)">
+                <path d="M8.73571984,21.1228016 L6.07657588,15.7475486 L3.97540856,13.0599222 C3.66491984,12.5342325 3.50109712,11.9348929 3.50101167,11.324358 L3.50101167,5.27626459 L4.23548638,5.27626459 C5.27426918,5.27806574 6.11570356,6.12012666 6.11673152,7.15891051 L6.11673152,14.747393" id="Path" stroke="#000000" stroke-width="1.49416342" fill="#000000" fill-rule="nonzero" stroke-linecap="square" stroke-linejoin="round"></path>
+                <polyline id="Path" stroke="#000000" stroke-width="1.49416342" stroke-linecap="square" stroke-linejoin="round" points="0.00840466926 12.2568093 0.00840466926 8.76560311 3.04108949 5.7259144"></polyline>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="11.5961089 12.4543191 7.67626459 9.82178988 7.67626459 7.7355642 12.5640467 11.1417899"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="2.20062257 21.9259144 1.2 20.6694163 4.95081712 16.8621012 5.67595331 18.3595331"></polygon>
+                <circle id="Oval" stroke="#000000" stroke-width="0.747081712" fill="#000000" fill-rule="nonzero" stroke-linecap="square" stroke-linejoin="round" cx="6.11766537" cy="1.78412451" r="1.74536965"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

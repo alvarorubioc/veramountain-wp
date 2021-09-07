@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/notifications</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/notifications" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="notifications-sharp">
+            <g transform="translate(3.000000, 2.000000)">
+                <path d="M8.96498054,20.9182879 C10.4495763,20.9168027 11.7927098,20.037261 12.3875486,18.6770428 L5.54241245,18.6770428 C6.1372513,20.037261 7.48038475,20.9168027 8.96498054,20.9182879 L8.96498054,20.9182879 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M15.688716,11.9533074 L15.688716,9.12700389 C15.688716,5.83657588 14.4112062,2.97011673 11.2062257,2.24124514 L10.8326848,0 L7.09727626,0 L6.72373541,2.24124514 C3.50754864,2.97011673 2.24124514,5.82536965 2.24124514,9.12700389 L2.24124514,11.9533074 L0,14.9416342 L0,17.1828794 L17.9299611,17.1828794 L17.9299611,14.9416342 L15.688716,11.9533074 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

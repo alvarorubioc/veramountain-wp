@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/reorder-two</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/reorder-two" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="round">
+        <g filter="url(#filter-1)" id="reorder-two-sharp">
+            <g transform="translate(6.000000, 10.000000)">
+                <line x1="0" y1="4.55583658" x2="12.8871595" y2="4.55583658" id="Path" stroke="#000000" stroke-width="2.05447471"></line>
+                <line x1="0" y1="0.0733463035" x2="12.8871595" y2="0.0733463035" id="Path" stroke="#000000" stroke-width="2.05447471"></line>
+            </g>
+        </g>
+    </g>
+</svg>

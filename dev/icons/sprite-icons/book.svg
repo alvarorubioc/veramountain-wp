@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/book</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/book" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="book-sharp">
+            <g transform="translate(1.000000, 3.000000)">
+                <path d="M20.9182879,0 C17.7614008,0.013540856 15.4146304,0.448249027 13.7164202,1.19953307 C12.4491829,1.75984436 11.9533074,2.18381323 11.9533074,3.62007782 L11.9533074,18.6770428 C13.8943191,16.92607 15.6168093,16.4357977 22.4124514,16.4357977 L22.4124514,0 L20.9182879,0 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M1.49416342,0 C4.65105058,0.013540856 6.99782101,0.448249027 8.69603113,1.19953307 C9.96326848,1.75984436 10.459144,2.18381323 10.459144,3.62007782 L10.459144,18.6770428 C8.5181323,16.92607 6.79564202,16.4357977 0,16.4357977 L0,0 L1.49416342,0 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

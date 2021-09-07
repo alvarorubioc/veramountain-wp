@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/attach</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/attach" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g filter="url(#filter-1)" id="attach-sharp">
+            <g transform="translate(8.000000, 4.000000)">
+                <path d="M2.6185214,5.3229572 L2.6185214,12.0256809 C2.63466467,13.0475956 3.46768545,13.867561 4.48972763,13.867561 C5.5117698,13.867561 6.34479059,13.0475956 6.36093385,12.0256809 L6.36700389,3.22178988 C6.38086489,2.07935017 5.77932304,1.01771077 4.79218672,0.442452131 C3.8050504,-0.132806507 2.58483287,-0.132806507 1.59769655,0.442452131 C0.610560226,1.01771077 0.00901837974,2.07935017 0.0228793774,3.22178988 L0.0228793774,12.0849805 C0.0581553616,14.5225357 2.04421291,16.4800593 4.48202335,16.4800593 C6.91983378,16.4800593 8.90589133,14.5225357 8.94116732,12.0849805 L8.94116732,3.80264591" id="Path" stroke="#000000" stroke-width="1.49416342"></path>
+            </g>
+        </g>
+    </g>
+</svg>

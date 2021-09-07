@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/help</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/help" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="help-sharp">
+            <g transform="translate(8.000000, 4.000000)">
+                <path d="M0,3.78210117 C0,3.3151751 0.0672373541,2.24124514 1.56607004,1.00575875 C2.45603113,0.272217899 3.5248249,0.059766537 4.48249027,0.046692607 C5.3570428,0.0359533074 6.13867704,0.183968872 6.60607004,0.411828794 C7.40498054,0.80311284 8.96498054,1.75564202 8.96498054,3.78210117 C8.96498054,5.91455253 7.60249027,6.88108949 6.0536965,7.94614786 C4.50490272,9.01120623 4.10894942,9.68217899 4.10894942,10.8793774" id="Path" stroke="#000000" stroke-width="1.86770428" stroke-linecap="square"></path>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="2.80155642" y="13.307393" width="2.61478599" height="2.61478599" rx="0.163424125"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

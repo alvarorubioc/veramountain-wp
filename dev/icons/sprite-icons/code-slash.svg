@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/code-slash</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/code-slash" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="code-slash-sharp">
+            <g transform="translate(0.000000, 3.000000)">
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="7.56326848 15.2978988 0 8.6848249 7.56326848 2.07175097 8.85431907 3.54770428 2.98832685 8.6848249 8.85431907 13.8219455"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="16.3433463 15.2978988 15.0522957 13.8219455 20.9182879 8.6848249 15.0522957 3.54770428 16.3433463 2.07175097 23.9066148 8.6848249"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="10.3727626 17.3696498 8.49805447 16.8130739 13.5338521 0 15.4085603 0.556575875"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

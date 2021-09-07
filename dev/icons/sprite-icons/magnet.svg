@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/magnet</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/magnet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="magnet-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <line x1="6.79614786" y1="19.4512062" x2="6.79614786" y2="17.2099611" id="Path" stroke="#000000" stroke-width="1.49416342" fill="#000000" fill-rule="nonzero" stroke-linecap="square"></line>
+                <line x1="2.01525292" y1="17.4817121" x2="3.6" y2="15.896965" id="Path" stroke="#000000" stroke-width="1.49416342" fill="#000000" fill-rule="nonzero" stroke-linecap="square"></line>
+                <line x1="0.0457587549" y1="12.7541245" x2="2.28700389" y2="12.7541245" id="Path" stroke="#000000" stroke-width="1.49416342" fill="#000000" fill-rule="nonzero" stroke-linecap="square"></line>
+                <path d="M17.5190661,1.99937743 C16.258435,0.737095482 14.5478372,0.0275424947 12.7638679,0.0269290794 C10.9798986,0.0263164592 9.26881358,0.734693669 8.00731518,1.99610895 L4.83782101,5.16560311 L8.00731518,8.3355642 L11.1768093,5.16560311 C11.601855,4.74058505 12.1798087,4.50411227 12.7808722,4.50929234 C13.3819357,4.51447241 13.9557279,4.76087113 14.3733852,5.19315175 C15.2278599,6.07657588 15.189572,7.49229572 14.3201556,8.36171206 L11.1768093,11.5050584 L14.3463035,14.6745525 L17.4705058,11.5503502 C20.1025681,8.91828794 20.1492607,4.63284047 17.5190661,1.99937743 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" transform="translate(4.309121, 8.863713) rotate(-45.000000) translate(-4.309121, -8.863713) " x="2.81495732" y="6.62246827" width="2.98832685" height="4.48249027"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" transform="translate(10.648609, 15.202372) rotate(-45.000000) translate(-10.648609, -15.202372) " x="9.15444546" y="12.9611264" width="2.98832685" height="4.48249027"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

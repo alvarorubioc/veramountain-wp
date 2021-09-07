@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/celluar</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/celluar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="cellular-sharp">
+            <g transform="translate(1.000000, 4.000000)">
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="22.4124514 16.4357977 17.9299611 16.4357977 17.9299611 0 22.4124514 0"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="16.4357977 16.4357977 11.9533074 16.4357977 11.9533074 3.73540856 16.4357977 3.73540856"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="10.459144 16.4357977 5.9766537 16.4357977 5.9766537 6.72373541 10.459144 6.72373541"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="4.48249027 16.4357977 0 16.4357977 0 9.71206226 4.48249027 9.71206226"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

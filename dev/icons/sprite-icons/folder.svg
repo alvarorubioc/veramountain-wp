@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/folder</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/folder" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="folder-sharp">
+            <g transform="translate(1.000000, 3.000000)">
+                <path d="M0,16.6225681 C0,17.3446213 0.585339782,17.9299611 1.307393,17.9299611 L21.1050584,17.9299611 C21.8271116,17.9299611 22.4124514,17.3446213 22.4124514,16.6225681 L22.4124514,6.72373541 L0,6.72373541 L0,16.6225681 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M22.4124514,2.80155642 C22.4124514,2.07950321 21.8271116,1.49416342 21.1050584,1.49416342 L9.19097276,1.49416342 L6.94972763,-6.63541854e-16 L1.307393,-6.63541854e-16 C0.585339782,-6.63541854e-16 0,0.585339782 0,1.307393 L0,5.22957198 L22.4124514,5.22957198 L22.4124514,2.80155642 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

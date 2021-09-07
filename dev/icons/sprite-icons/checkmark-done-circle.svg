@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/checkmark-done-circle</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/checkmark-done-circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="checkmark-done-circle-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <path d="M9.71206226,0 C4.35688716,0 0,4.35688716 0,9.71206226 C0,15.0672374 4.35688716,19.4241245 9.71206226,19.4241245 C15.0672374,19.4241245 19.4241245,15.0672374 19.4241245,9.71206226 C19.4241245,4.35688716 15.0672374,0 9.71206226,0 Z M11.962179,5.66941634 L13.0874708,6.65276265 L9.65042802,10.5796109 L8.52513619,9.50287938 L11.962179,5.66941634 Z M6.72046693,13.7570428 L3.42583658,10.459144 L4.48249027,9.40249027 L7.77758755,12.7003891 L6.72046693,13.7570428 Z M9.75548638,13.79393 L6.42256809,10.459144 L7.47968872,9.4029572 L9.68171206,11.6073152 L14.8706615,5.66941634 L15.9959533,6.65276265 L9.75548638,13.79393 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/navigate-circle</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/navigate-circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="navigate-circle-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <path d="M9.71206226,0 L9.71206226,0 C4.35069187,0.00591862687 0.00591862687,4.35069187 0,9.71206226 C0,15.0667704 4.35688716,19.4241245 9.71206226,19.4241245 L9.71206226,19.4241245 C15.0734326,19.4182059 19.4182059,15.0734326 19.4241245,9.71206226 C19.4241245,4.35688716 15.0672374,0 9.71206226,0 Z M9.3385214,16.8560311 L9.3385214,10.0856031 L2.61478599,10.0856031 L2.56809339,10.0856031 L14.6614786,4.75750973 L9.3385214,16.8560311 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

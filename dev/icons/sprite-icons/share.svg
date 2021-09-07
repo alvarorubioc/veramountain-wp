@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/share</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/share" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="share-sharp">
+            <g transform="translate(4.000000, 2.000000)">
+                <path d="M8.96498054,6.77042802 L8.96498054,14.2879377 L7.47081712,14.2879377 L7.47081712,6.77042802 L0.560311284,6.77042802 C0.250859907,6.77042802 0,7.02128792 0,7.3307393 L0,20.4046693 C0,20.7141206 0.250859907,20.9649805 0.560311284,20.9649805 L15.8754864,20.9649805 C16.1849378,20.9649805 16.4357977,20.7141206 16.4357977,20.4046693 L16.4357977,7.3307393 C16.4357977,7.02128792 16.1849378,6.77042802 15.8754864,6.77042802 L8.96498054,6.77042802 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="8.96498054 2.87766537 11.9533074 5.86599222 13.0099611 4.80933852 8.21789883 0.0172762646 3.42583658 4.80933852 4.48249027 5.86599222 7.47081712 2.87766537 7.47081712 6.77042802 8.96498054 6.77042802"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

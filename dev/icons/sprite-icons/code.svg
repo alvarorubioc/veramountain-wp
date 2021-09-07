@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/code</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="code-sharp">
+            <g transform="translate(0.000000, 5.000000)">
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="7.56326848 13.2434241 0 6.63035019 7.56326848 0.0172762646 8.85431907 1.49322957 2.98832685 6.63035019 8.85431907 11.7674708"></polygon>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="16.3433463 13.2434241 15.0522957 11.7674708 20.9182879 6.63035019 15.0522957 1.49322957 16.3433463 0.0172762646 23.9066148 6.63035019"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

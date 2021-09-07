@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/qr-code</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/qr-code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="qr-code-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="14.1945525" y="14.1945525" width="3.73540856" height="3.73540856"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="11.2062257" y="11.2062257" width="2.98832685" height="2.98832685"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="17.9299611" y="17.9299611" width="2.98832685" height="2.98832685"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="18.6770428" y="11.2062257" width="2.24124514" height="2.24124514"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="11.2062257" y="18.6770428" width="2.24124514" height="2.24124514"></rect>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="14.1945525" y="2.98832685" width="3.73540856" height="3.73540856"></rect>
+                <path d="M20.9182879,9.71206226 L11.2062257,9.71206226 L11.2062257,0 L20.9182879,0 L20.9182879,9.71206226 Z M13.2607004,7.65758755 L18.8638132,7.65758755 L18.8638132,2.05447471 L13.2607004,2.05447471 L13.2607004,7.65758755 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="2.98832685" y="2.98832685" width="3.73540856" height="3.73540856"></rect>
+                <path d="M9.71206226,9.71206226 L0,9.71206226 L0,0 L9.71206226,0 L9.71206226,9.71206226 Z M2.05447471,7.65758755 L7.65758755,7.65758755 L7.65758755,2.05447471 L2.05447471,2.05447471 L2.05447471,7.65758755 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="2.98832685" y="14.1945525" width="3.73540856" height="3.73540856"></rect>
+                <path d="M9.71206226,20.9182879 L0,20.9182879 L0,11.2062257 L9.71206226,11.2062257 L9.71206226,20.9182879 Z M2.05447471,18.8638132 L7.65758755,18.8638132 L7.65758755,13.2607004 L2.05447471,13.2607004 L2.05447471,18.8638132 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

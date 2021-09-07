@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/volume-low</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/volume-low" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="volume-low-sharp">
+            <g transform="translate(5.000000, 3.000000)">
+                <path d="M13.7799222,12.5827237 L12.4445136,11.9122179 L12.7797665,11.2445136 C13.2228794,10.3620233 13.4474708,9.47019455 13.4474708,8.59143969 C13.4474708,7.68747082 13.2298833,6.82085603 12.7821012,5.94256809 L12.4426459,5.27626459 L13.7743191,4.59828794 L14.1133074,5.26365759 C14.6708171,6.35766537 14.9416342,7.44607004 14.9416342,8.59143969 C14.9416342,9.70412451 14.6614786,10.8224125 14.1151751,11.9150195 L13.7799222,12.5827237 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="4.37276265 4.86070039 0 4.86070039 0 12.322179 4.37276265 12.322179 10.459144 17.1828794 10.459144 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

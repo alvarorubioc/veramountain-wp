@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/checkmark-done</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/checkmark-done" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g filter="url(#filter-1)" id="checkmark-done-sharp">
+            <g transform="translate(2.000000, 6.000000)">
+                <polyline id="Path" stroke="#000000" stroke-width="2.05447471" points="19.5175097 0 9.05836576 12 4.76264591 7.70428016"></polyline>
+                <line x1="4.34241245" y1="12.0466926" x2="0" y2="7.70428016" id="Path" stroke="#000000" stroke-width="2.05447471"></line>
+                <line x1="14.7548638" y1="0" x2="8.82490272" y2="6.81712062" id="Path" stroke="#000000" stroke-width="2.05447471"></line>
+            </g>
+        </g>
+    </g>
+</svg>

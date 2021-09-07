@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/build</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/build" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="build-sharp">
+            <g transform="translate(2.000000, 2.000000)">
+                <path d="M9.24513619,8.27392996 L0,17.4434241 L3.48560311,20.9182879 L12.7115953,11.665214 C14.8814008,12.4804669 17.6385992,12.2507393 19.3886381,10.5081712 C21.2768872,8.62552529 21.2726848,5.46536965 20.1735409,3.18723735 L16.0958755,7.25229572 L13.6529183,4.81821012 L17.7305837,0.753151751 C15.4552529,-0.352062257 12.2647471,-0.35766537 10.3764981,1.52498054 C8.60077821,3.29509728 8.37898833,6.08217899 9.24513619,8.27392996 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

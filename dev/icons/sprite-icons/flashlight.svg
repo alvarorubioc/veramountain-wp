@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>99. Icons/Sharp/flashlight</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.388235 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="99.-Icons/Sharp/flashlight" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="flashlight-sharp">
+            <g transform="translate(1.000000, 1.000000)">
+                <polygon id="Path" fill="#000000" fill-rule="nonzero" points="14.6614786 0 12.6686381 1.99377432 20.418677 9.74381323 22.4124514 7.75097276"></polygon>
+                <ellipse id="Oval" cx="9.74381323" cy="12.6677043" rx="1" ry="1"></ellipse>
+                <path d="M19.2938521,10.6389105 L11.766537,3.1092607 L10.9097276,7.09727626 L0,18.0233463 L4.38910506,22.4124514 L15.3259144,11.4957198 L19.2938521,10.6389105 Z M10.4689494,13.256965 C10.2195093,13.5634373 9.80417604,13.679738 9.43185295,13.5473705 C9.05952986,13.4150031 8.81082077,13.0626235 8.81082077,12.6674708 C8.81082077,12.2723181 9.05952986,11.9199386 9.43185295,11.7875711 C9.80417604,11.6552036 10.2195093,11.7715044 10.4689494,12.0779767 C10.7481118,12.4215222 10.7477218,12.9138622 10.4680156,13.256965 L10.4689494,13.256965 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
