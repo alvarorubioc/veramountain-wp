@@ -1,0 +1,22 @@
+// Custom Buttons
+.wp-block-button:not(.is-style-with-icon) .wp-block-button__link{
+	@include button;
+    padding: 0.8125rem $space-3;
+	opacity: 0.9;
+	
+	&:hover {
+		opacity: 1; 
+	}
+
+	&:visited, &:focus {
+		color: currentColor;
+	}
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+	border-radius: 0;
+
+	&:hover {
+		color: inherit;
+	}
+}

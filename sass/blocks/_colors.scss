@@ -1,0 +1,9 @@
+// Generate Block Colour Classes
+@each $name, $color in $theme-colors {
+	.has-#{$name}-color {
+		color: $color;
+	}
+	.has-#{$name}-background-color {
+		background-color: $color;
+	}
+}

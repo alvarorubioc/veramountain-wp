@@ -14,7 +14,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php www_veramountain_com_post_thumbnail(); ?>
+	<?php veramountain_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -22,7 +22,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'www-veramountain-com' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'veramountain' ),
 				'after'  => '</div>',
 			)
 		);
@@ -36,7 +36,7 @@
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'www-veramountain-com' ),
+						__( 'Edit <span class="screen-reader-text">%s</span>', 'veramountain' ),
 						array(
 							'span' => array(
 								'class' => array(),

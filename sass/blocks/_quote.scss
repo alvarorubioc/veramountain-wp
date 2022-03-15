@@ -1,0 +1,24 @@
+.wp-block-quote {
+	margin-top: $space-6;
+	margin-bottom: $space-6;
+	font-family: $font__heading-serif;
+	
+	p {
+		margin-bottom: .5em;
+		@include font-size(1.5);
+	}
+	
+	cite {
+		font-size: 80%;
+		font-weight: bold;
+	}
+
+	&.is-style-default::before {
+		border-top: 4px solid $color__primary;
+		content: '';
+		width: 168px;
+		height: 8px;
+		display: block;
+	}
+
+}

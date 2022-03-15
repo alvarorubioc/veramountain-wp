@@ -22,14 +22,14 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				www_veramountain_com_posted_on();
-				www_veramountain_com_posted_by();
+				veramountain_posted_on();
+				veramountain_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php www_veramountain_com_post_thumbnail(); ?>
+	<?php veramountain_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -37,7 +37,7 @@
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'www-veramountain-com' ),
+					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'veramountain' ),
 					array(
 						'span' => array(
 							'class' => array(),
@@ -50,7 +50,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'www-veramountain-com' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'veramountain' ),
 				'after'  => '</div>',
 			)
 		);
@@ -58,6 +58,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php www_veramountain_com_entry_footer(); ?>
+		<?php veramountain_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

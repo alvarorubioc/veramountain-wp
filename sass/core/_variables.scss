@@ -1,0 +1,88 @@
+/* main colors */
+$primary-colors: (
+    primary: #C06C84,
+    primary-10: #F8B195,
+    primary-20: #FDBB63,
+    primary-30: #FDA26B,
+    primary-40: #FC8862,
+    primary-50: #EB6859,
+    primary-60: #F2727F,
+);
+
+$secondary-colors: (
+    secondary: #6C5B7B,
+    brown: #704E2C,
+    blue: #355C7D,
+    white: #FFFFFF
+);
+
+$color__primary: #C06C84;
+$color__secondary: #6C5B7B;
+
+
+/* primary colors */
+$color__primary-60: #F2727F;
+$color__primary-50: #EB6859;
+$color__primary-40: #FC8862;
+$color__primary-30: #FDA26B;
+$color__primary-20: #FDBB63;
+$color__primary-10: #F8B195;
+
+/* text colors */
+$color__link: #355C7D;
+$color__link-hover: #6C5B7B;
+$color__text-main: #000000;
+
+/* feedback */
+$color__success: #88c459;
+$color__error: #f5414f;
+$color__warning: #ffd137;
+
+/* Backgrounds colors */
+$color__ligth: #F4F5F7;
+$color__gray: #c4cdd5;
+$color__gray-dark: #6D7278;
+$color__white: #ffffff;
+
+
+$theme-colors: map-merge($primary-colors, $secondary-colors);
+
+/* Border radius */
+$border__radius: 24px;
+
+/* Fonts */
+$font__main: 'Nunito', sans-serif;
+$font__heading: 'Bebas Neue', cursive;
+$font__heading-serif: 'Libre Baskerville', serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-header: 1.2;
+$font__line-height-pre: 1.6;
+
+
+/* set base value. You can change this value */
+$space__unit: 1rem;
+
+/* space scale */
+$space-0: calc(0.5 * #{$space__unit}); // 8px
+$space-1: $space__unit; // 16px
+$space-2: calc(1.5 * #{$space__unit}); // 24px
+$space-3: calc(2 * #{$space__unit}); // 32px
+$space-4: calc(2.5 * #{$space__unit}); // 40px
+
+$space-5: calc(3.5 * #{$space__unit}); // 56px
+$space-6: calc(4 * #{$space__unit}); // 64px
+$space-7: calc(4.5 * #{$space__unit}); // 72px
+$space-8: calc(5 * #{$space__unit}); // 80px
+
+$space-9: calc(6 * #{$space__unit}); // 96px
+$space-10: calc(7 * #{$space__unit}); // 112px
+
+/* Layout, width and gap */
+$grid__gap: 2rem;
+$grid__gap-row: -$grid__gap;
+
+
+
+
