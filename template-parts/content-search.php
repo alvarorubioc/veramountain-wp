@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package VeraMountain
+ * @package veramountain
  */
 
 ?>
@@ -16,20 +16,20 @@
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php
-			veramountain_posted_on();
-			veramountain_posted_by();
+			www_veramountain_com_posted_on();
+			www_veramountain_com_posted_by();
 			?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php veramountain_post_thumbnail(); ?>
+	<?php www_veramountain_com_post_thumbnail(); ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 
 	<footer class="entry-footer">
-		<?php veramountain_entry_footer(); ?>
+		<?php www_veramountain_com_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

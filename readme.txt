@@ -1,4 +1,4 @@
-=== VeraMountain ===
+=== veramountain ===
 
 Contributors: automattic
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
@@ -10,7 +10,7 @@ Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
-A starter theme called VeraMountain.
+A starter theme called veramountain.
 
 == Description ==
 
@@ -26,7 +26,7 @@ Mountain guides, adventures, hiking, climbing
 
 = Does this theme support any plugins? =
 
-VeraMountain includes support for WooCommerce and for Infinite Scroll in Jetpack.
+veramountain includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
