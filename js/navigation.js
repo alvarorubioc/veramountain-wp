@@ -1,99 +1,180 @@
-/**
- * File navigation.js.
- *
- * Handles toggling the navigation menu for small screens and enables TAB key
- * navigation support for dropdown menus.
- */
-( function() {
-	const siteNavigation = document.getElementById( 'site-navigation' );
+/* eslint-disable eqeqeq */
+/* eslint-disable no-mixed-spaces-and-tabs */
+/* eslint-disable no-undef */
+/*
 
-	// Return early if the navigation doesn't exist.
-	if ( ! siteNavigation ) {
-		return;
-	}
+An accessible menu for WordPress
+https://github.com/argenteum/accessible-nav-wp
 
-	const button = siteNavigation.getElementsByTagName( 'button' )[ 0 ];
+Licensed GPL v.2 (http://www.gnu.org/licenses/gpl-2.0.html)
 
-	// Return early if the button doesn't exist.
-	if ( 'undefined' === typeof button ) {
-		return;
-	}
+*/
 
-	const menu = siteNavigation.getElementsByTagName( 'ul' )[ 0 ];
+( function( $ ) {
+	const menuContainer = $( '.menu-container' );
+	const menuToggle = menuContainer.find( '.menu-button' );
+	const siteHeaderMenu = menuContainer.find( '#site-header-menu' );
+	const siteNavigation = menuContainer.find( '#site-navigation' );
 
-	// Hide menu toggle button if menu is empty and return early.
-	if ( 'undefined' === typeof menu ) {
-		button.style.display = 'none';
-		return;
-	}
+	// If you are using WordPress, and do not need to localise your script, or if you are not using WordPress, then uncomment the next line
+	const screenReaderText = { expand: 'Expand child menu', collapse: 'Collapse child menu' };
 
-	if ( ! menu.classList.contains( 'nav-menu' ) ) {
-		menu.classList.add( 'nav-menu' );
-	}
+	const dropdownToggle = $( '<button />', { class: 'dropdown-toggle', 'aria-expanded': false } )
+		.append( $( '<span />', { class: 'screen-readers', text: screenReaderText.expand } ) );
 
-	// Toggle the .toggled class and the aria-expanded value each time the button is clicked.
-	button.addEventListener( 'click', function() {
-		siteNavigation.classList.toggle( 'toggled' );
-
-		if ( button.getAttribute( 'aria-expanded' ) === 'true' ) {
-			button.setAttribute( 'aria-expanded', 'false' );
-		} else {
-			button.setAttribute( 'aria-expanded', 'true' );
+	// Toggles the menu button
+	( function() {
+		if ( ! menuToggle.length ) {
+			return;
 		}
+
+		menuToggle.add( siteNavigation ).attr( 'aria-expanded', 'false' );
+
+		menuToggle.on( 'click', function() {
+			$( this ).add( siteHeaderMenu ).toggleClass( 'toggled-on' );
+
+			// jscs:disable
+			$( this ).add( siteNavigation )
+				.attr( 'aria-expanded', $( this )
+					.add( siteNavigation ).attr( 'aria-expanded' ) === 'false' ? 'true' : 'false' );
+			// jscs:enable
+		} );
+	}() );
+
+	// Adds the dropdown toggle button
+	$( '.menu-item-has-children > a' ).after( dropdownToggle );
+
+	// Adds aria attribute
+	siteHeaderMenu.find( '.menu-item-has-children' ).attr( 'aria-haspopup', 'true' );
+
+	// Toggles the sub-menu when dropdown toggle button clicked
+	siteHeaderMenu.find( '.dropdown-toggle' ).click( function( e ) {
+		screenReaderSpan = $( this ).find( '.screen-readers' );
+
+		e.preventDefault();
+		$( this ).toggleClass( 'toggled-on' );
+		$( this ).nextAll( '.sub-menu' ).toggleClass( 'toggled-on' );
+
+		// jscs:disable
+		$( this ).attr( 'aria-expanded', $( this ).attr( 'aria-expanded' ) === 'false'
+			? 'true' : 'false' );
+		// jscs:enable
+		screenReaderSpan.text( screenReaderSpan.text() ===
+        screenReaderText.expand ? screenReaderText.collapse
+			: screenReaderText.expand );
 	} );
 
-	// Remove the .toggled class and set aria-expanded to false when the user clicks outside the navigation.
-	document.addEventListener( 'click', function( event ) {
-		const isClickInside = siteNavigation.contains( event.target );
+	// Adds a class to sub-menus for styling
+	$( '.sub-menu .menu-item-has-children' ).parent( '.sub-menu' ).addClass( 'has-sub-menu' );
 
-		if ( ! isClickInside ) {
-			siteNavigation.classList.remove( 'toggled' );
-			button.setAttribute( 'aria-expanded', 'false' );
+	// Keyboard navigation
+	$( '.menu-item a, button.dropdown-toggle' ).on( 'keydown', function( e ) {
+		if ( [ 37, 38, 39, 40 ].indexOf( e.keyCode ) == -1 ) {
+			return;
+		}
+
+		switch ( e.keyCode ) {
+			case 37: 				// left key
+				e.preventDefault();
+				e.stopPropagation();
+
+				if ( $( this ).hasClass( 'dropdown-toggle' ) ) {
+            		$( this ).prev( 'a' ).focus();
+            	} else if ( $( this ).parent().prev().children( 'button.dropdown-toggle' ).length ) {
+                	$( this ).parent().prev().children( 'button.dropdown-toggle' ).focus();
+				} else {
+                	$( this ).parent().prev().children( 'a' ).focus();
+				}
+
+            	if ( $( this ).is( 'ul ul ul.sub-menu.toggled-on li:first-child a' ) ) {
+            		$( this ).parents( 'ul.sub-menu.toggled-on li' ).children( 'button.dropdown-toggle' ).focus();
+            	}
+
+				break;
+
+	    case 39: 				// right key
+				e.preventDefault();
+				e.stopPropagation();
+
+				if ( $( this ).next( 'button.dropdown-toggle' ).length ) {
+            		$( this ).next( 'button.dropdown-toggle' ).focus();
+            	} else {
+            		$( this ).parent().next().children( 'a' ).focus();
+            	}
+
+            	if ( $( this ).is( 'ul.sub-menu .dropdown-toggle.toggled-on' ) ) {
+            		$( this ).parent().find( 'ul.sub-menu li:first-child a' ).focus();
+            	}
+
+				break;
+
+			case 40: 				// down key
+				e.preventDefault();
+				e.stopPropagation();
+
+				if ( $( this ).next().length ) {
+					$( this ).next().find( 'li:first-child a' ).first().focus();
+				} else {
+					$( this ).parent().next().children( 'a' ).focus();
+				}
+
+            	if ( ( $( this ).is( 'ul.sub-menu a' ) ) && ( $( this ).next( 'button.dropdown-toggle' ).length ) ) {
+            		$( this ).parent().next().children( 'a' ).focus();
+            	}
+
+            	if ( ( $( this ).is( 'ul.sub-menu .dropdown-toggle' ) ) && ( $( this ).parent().next().children( '.dropdown-toggle' ).length ) ) {
+            		$( this ).parent().next().children( '.dropdown-toggle' ).focus();
+            	}
+
+				break;
+
+			case 38: 				// up key
+				e.preventDefault();
+				e.stopPropagation();
+
+				if ( $( this ).parent().prev().length ) {
+					$( this ).parent().prev().children( 'a' ).focus();
+				} else {
+					$( this ).parents( 'ul' ).first().prev( '.dropdown-toggle.toggled-on' ).focus();
+				}
+
+            	if ( ( $( this ).is( 'ul.sub-menu .dropdown-toggle' ) ) && ( $( this ).parent().prev().children( '.dropdown-toggle' ).length ) ) {
+            		$( this ).parent().prev().children( '.dropdown-toggle' ).focus();
+            	}
+
+				break;
 		}
 	} );
+}( jQuery ) );
 
-	// Get all the link elements within the menu.
-	const links = menu.getElementsByTagName( 'a' );
-
-	// Get all the link elements with children within the menu.
-	const linksWithChildren = menu.querySelectorAll( '.menu-item-has-children > a, .page_item_has_children > a' );
-
-	// Toggle focus each time a menu link is focused or blurred.
-	for ( const link of links ) {
-		link.addEventListener( 'focus', toggleFocus, true );
-		link.addEventListener( 'blur', toggleFocus, true );
+document.addEventListener( 'scroll', function() {
+	const distanceFromTop = Math.abs(
+		document.body.getBoundingClientRect().top
+	);
+	const navbarHeight = 80;
+	const navbar = document.getElementById( 'masthead' );
+	if ( distanceFromTop >= navbarHeight ) {
+		navbar.classList.add( 'sticky-navbar' );
+	} else {
+		navbar.classList.remove( 'sticky-navbar' );
 	}
+} );
 
-	// Toggle focus each time a menu link with children receive a touch event.
-	for ( const link of linksWithChildren ) {
-		link.addEventListener( 'touchstart', toggleFocus, false );
-	}
+( function( $ ) {
+	const dropdownContainer = $( '.dropdown' );
 
-	/**
-	 * Sets or removes .focus class on an element.
-	 */
-	function toggleFocus() {
-		if ( event.type === 'focus' || event.type === 'blur' ) {
-			let self = this;
-			// Move up through the ancestors of the current link until we hit .nav-menu.
-			while ( ! self.classList.contains( 'nav-menu' ) ) {
-				// On li elements toggle the class .focus.
-				if ( 'li' === self.tagName.toLowerCase() ) {
-					self.classList.toggle( 'focus' );
-				}
-				self = self.parentNode;
-			}
-		}
+	// Toggles the sub-menu when dropdown toggle button clicked
+	dropdownContainer.find( '.dropdown-btn' ).click( function( e ) {
+		e.preventDefault();
+		$( this ).toggleClass( 'dropdown-open' );
 
-		if ( event.type === 'touchstart' ) {
-			const menuItem = this.parentNode;
-			event.preventDefault();
-			for ( const link of menuItem.parentNode.children ) {
-				if ( menuItem !== link ) {
-					link.classList.remove( 'focus' );
-				}
-			}
-			menuItem.classList.toggle( 'focus' );
-		}
-	}
-}() );
+		$( this ).nextAll( 'div' ).contents().unwrap();
+		$( this ).nextAll( '.aside-filter--items' ).slideToggle( 300 );
+
+		// jscs:disable
+		$( this ).attr( 'aria-expanded', $( this ).attr( 'aria-expanded' ) === 'false'
+			? 'true' : 'false' );
+		// jscs:enable
+	} );
+}( jQuery ) );
+

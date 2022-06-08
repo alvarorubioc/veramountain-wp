@@ -1,8 +1,9 @@
 // Custom Buttons
-.wp-block-button:not(.is-style-with-icon) .wp-block-button__link{
+.wp-block-button:not(.is-style-with-icon, .is-style-theme-link) .wp-block-button__link{
 	@include button;
     padding: 0.8125rem $space-3;
 	opacity: 0.9;
+	background-color: color(primary);
 	
 	&:hover {
 		opacity: 1; 
@@ -14,9 +15,46 @@
 }
 
 .wp-block-button.is-style-outline .wp-block-button__link {
-	border-radius: 0;
+	background-color: transparent;
 
 	&:hover {
 		color: inherit;
 	}
 }
+
+.wp-block-button.is-style-theme-link .wp-block-button__link {
+	
+	color: color(primary);
+	background: transparent;
+	border-radius: 0;
+	padding: 0;
+	transition: 0.4s;
+
+	&:hover::before {
+		width: 90px;
+		transition: 0.4s;
+
+	}
+
+	&::before {
+		content: '';
+		width: 80px;
+		display: inline-block;
+		height: 1px;
+		background: color(primary);
+		vertical-align: middle;
+		margin-right: $space-1;
+		transition: 0.4s;
+	}
+
+	&::after {
+		content: url('assets/icons/arrow-down-circle.svg');
+		
+		display: inline-block;
+		
+		vertical-align: middle;
+		margin-left: $space-1;
+		transition: 0.4s;
+	}
+}
+

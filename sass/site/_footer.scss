@@ -1,46 +1,69 @@
-.site-footer {
-    background-image: url('assets/img/bg-footer.png');
-    padding: $space-6 0 0;
-    margin-top: $space-8;
+#colophon {
+    color: white;
+    
+   
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+        li {
+            padding-bottom: $space-05;
+        }
+    }
+}
+
+.top-footer {
+    background-color: color(black);
+    
+    p {
+        margin-bottom: 0;
+        margin-top: 0;
+    } 
+
+    & > .dflex {
+        @include breakpoint(mobile){
+            display: block;
+        }
+        
+    }
+}
+
+.contact-footer {
+    background: color(gradient);
+    min-width: 400px;
+    @include breakpoint(mobile){
+        min-width: 100%;
+    }
+    position: relative;
+    transition: all 0.5s ease;
+    &:hover {
+        background: linear-gradient(-90deg, #6B9518 0%, #17852F 100%);
+        transition: all 0.5s ease;
+    }
+
+    a {
+        color: color(black);
+        &:hover {color: white;}
+        &::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+        }
+    }
+}
+
+.mid-footer {
+    background-color: color(black-100);
 }
 
 .site-info {
-    padding: $space-1 0;
-    color: $color__white;
-
-    .legal {
-        display: flex;
-        align-items: center;
-        
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            
-            @include breakpoint(mobile) {
-                margin-top: $space-1;
-            }
-    
-            li:before {
-                content: '|';
-                padding: $space-0;
-                
-            }
-
-            li:first-child {
-                &:before { content: none;}
-            }
-    
-            a {
-                line-height: 1;
-                color: $color__white;;
-                &:hover {
-                    color: $color__primary-10;
-                }
-                
-            }
-        } 
-    } 
-
+    background-color: color(black);
 }

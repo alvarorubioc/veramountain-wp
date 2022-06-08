@@ -2,22 +2,133 @@
 	position: relative;
 }
 
-.single-products {
-	
-	h2.entry-title {
-		font-family: $font__main;
+.booking-bar {
+    position: sticky;
+	position: -webkit-sticky;
+    top: 0;
+    z-index: 99;
+    transition: all .3s ease;
+	padding: $space-5 0;
+
+    @include breakpoint(mobile) {
+        //position: inherit;
+    } 
+
+    &.booking-bar--fixed {
+        background-color: white;
+        padding: $space-05 0;
+
+		li {
+			@include font-size(1);
+			color: color(black);
+		}
+
+    }
+
+}
+
+.activities-resumen-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    li {
+        padding-right: $space-4;
+        display: flex;
+        align-items: center;
+		font-size: 24px;
+
+        @include breakpoint(mobile) {
+            padding-bottom: $space-4;
+        } 
+
+        svg {
+            fill: color(secondary);
+        }
+
+        span {
+            padding-left: $space-05;
+        }
+    }
+}
+
+.curvas-nivel-bg {
+	background-image: url("assets/img/BG-curvas-2-0.png");
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 90%, 50% 90%, 50% 100%, 0px 100%);
+
+    @include breakpoint(mobile) {
+		clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 50% 95%, 50% 100%, 0px 100%);
 	}
 }
 
-#related-products {
-	
-	p.text-h2 {
-		font-family: $font__main;
-	}
+
+#aside-filter {
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 2em;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: color(black-100);
+
+    @include breakpoint(mobile) {
+        display: block;
+    } 
+
+    .aside-filter--items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2em;
+        margin: 0;
+        padding: 0;
+        @include breakpoint(mobile) {
+            display: none;
+        } 
+    }
+
+    .dropdown-btn {
+        
+        margin-top: $space-2;
+
+        @include breakpoint(mobile) {
+            display: block;
+            width: 100%;
+        } 
+    }
+    
+    .title-filter {
+        display: flex;
+        align-items: center;
+        img {
+            padding-right: .5rem;
+        }
+    }
+
+    .facetwp-slider-reset {
+        box-shadow: none;
+    }
+    
 }
 
-#tax-buttons {
-	.wp-block-button {
-		margin: $space-0;
-	}
+.with-sidebar {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: $grid__gap;
+}
+
+
+#moove_gdpr_cookie_info_bar {
+	min-height: 400px !important;
+}
+
+.moove-gdpr-info-bar-container{
+	padding: 100px 40px !important;
 }

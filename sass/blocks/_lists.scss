@@ -1,0 +1,74 @@
+ul, ol {
+	margin: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+	li {
+		padding-bottom: $space__unit;
+	}
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: $space__unit;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 $space__unit $space__unit;
+}
+
+ul.is-style-check-list {
+	list-style: none;
+	position: relative;
+	padding: 0;
+
+	li {
+		display: flex;
+		align-items: center; 
+		padding-bottom: $space-3;
+	}
+	li:before{
+		display: inline-flex;
+		content: '';
+		background-image: url("assets/icons/check-square.svg");
+		background-size: 24px 24px;
+		background-repeat: no-repeat;
+		color: white;
+		height: 24px;
+		width: 24px;
+		padding-right: 2.5em;
+	}
+}
+
+ul.is-style-slash-list {
+	list-style: none;
+	position: relative;
+	padding: 0;
+
+	li {
+		display: flex;
+		align-items: center; 
+		padding-bottom: $space-3;
+	}
+	li:before{
+		display: inline-flex;
+		content: '';
+		background-image: url("assets/icons/slash.svg");
+		background-size: 24px 24px;
+		background-repeat: no-repeat;
+		color: white;
+		height: 24px;
+		width: 24px;
+		padding-right: 2.5em;
+	}
+}

@@ -46,7 +46,8 @@
    	@else if $point == xsmobile {
 	  @media (max-width: 414px)  { @content ; }
    	}
- }
+}
+
 
 // Container
 @mixin container {
@@ -84,7 +85,7 @@
 	line-height: 1;
 	font-weight: bold;
 	transition: all 0.3s ease;
-	border-radius: $border__radius;
+	border-radius: 0;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
@@ -105,5 +106,16 @@
 		@include breakpoint(mobile) {
 			grid-template-columns: repeat(1, 1fr);
 		}
+	}
+}
+
+
+// Generate Block Colour **Gutenberg** Classes (Cambiar para usos fuera de WordPress)
+@each $name, $color in $gutenbergColors {
+	.has-#{$name}-color {
+		color: $color;
+	}
+	.has-#{$name}-background-color {
+		background-color: $color;
 	}
 }
