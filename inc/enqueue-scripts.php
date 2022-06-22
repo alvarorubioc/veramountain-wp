@@ -5,7 +5,7 @@ function veramountain_scripts() {
 
 	wp_enqueue_script('jquery'); // Enqueue it!
 
-	//wp_enqueue_script( 'veramountain-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'veramountain-filters-js', get_template_directory_uri() . '/js/filters.js', array(), _S_VERSION, true );
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

@@ -14,7 +14,7 @@ $grid_columns = get_field('grid_columns_pages');
 if($posts) :
 
 ?>
-	<section class="grid-pages grid--columns-<?php echo $grid_columns; ?>  mt-4 mb-6">
+	<section class="grid-pages grid-columns-<?php echo $grid_columns; ?>  mt-4 mb-6">
 		<?php foreach($posts as $post) : setup_postdata($post);
         
             get_template_part( 'template-parts/card', get_post_type() );
@@ -24,8 +24,3 @@ if($posts) :
 
 <?php endif; ?>
 
-<style type="text/css">
-    .grid--columns-<?php echo $grid_columns; ?> {
-        grid-template-columns: repeat(<?php echo $grid_columns; ?>, 1fr);
-    }    
-</style>

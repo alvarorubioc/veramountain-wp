@@ -9,8 +9,10 @@
 			flex-direction: column;
 			clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 50% 95%, 50% 100%, 0px 100%);
 		}
-
-		padding-top: $space-6;
+		.container {
+			padding-top: $space-6;
+		}
+		clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 50% 95%, 50% 100%, 0px 100%);
 	}
 
 	.container .row {
@@ -33,7 +35,6 @@
 	}
 
 	.home & {
-		clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 85%, 50% 100%, 0px 100%);
 		.container .row { height: 800px; }
 
 		.hero__side {

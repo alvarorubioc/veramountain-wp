@@ -59,7 +59,7 @@
 	grid-gap: $grid__gap;
 
 	@include breakpoint(mobile) {
-        display: block; 
+        grid-template-columns: 1fr;
     } 
 }
 
