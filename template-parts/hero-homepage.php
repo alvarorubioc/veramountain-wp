@@ -7,24 +7,24 @@
                 <?php the_title( '<h1>', '</h1>' );?>
                 <div class="text-h4"><?php echo the_excerpt(); ?></div>
                 <div class="wp-block-buttons">
-                <?php 
-                    $link_1 = get_field('btn_hero_1');
-                    if( $link_1 ): 
-                        $link_url = $link_1['url'];
-                        $link_title = $link_1['title'];
-                        $link_target = $link_1['target'];    
-                        ?>    
-                        <div class="wp-block-button"><a class="wp-block-button__link" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a></div>
-                <?php endif; ?>
-                <?php 
-                    $link_2 = get_field('btn_hero_2');
-                    if( $link_2 ): 
-                        $link_url = $link_2['url'];
-                        $link_title = $link_2['title'];
-                        $link_target = $link_2['target'];    
-                        ?>    
-                        <a class="" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
-                <?php endif; ?>
+                    <?php 
+                        $link_1 = get_field('btn_hero_1');
+                        if( $link_1 ): 
+                            $link_url = $link_1['url'];
+                            $link_title = $link_1['title'];
+                            $link_target = $link_1['target'];    
+                            ?>    
+                            <div class="wp-block-button"><a class="btn" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a></div>
+                    <?php endif; ?>
+                    <?php 
+                        $link_2 = get_field('btn_hero_2');
+                        if( $link_2 ): 
+                            $link_url = $link_2['url'];
+                            $link_title = $link_2['title'];
+                            $link_target = $link_2['target'];    
+                            ?>    
+                            <div class="wp-block-button"><a class="wp-block-button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a></div>
+                    <?php endif; ?>
                 </div>
             </div>
             <div class="col-xs-12 col-md-6 center-xs">

@@ -22,16 +22,15 @@
 	.entry-hero {
 		padding: $space-9 0;
 
-		a {
-			
-			padding: 0.8125rem $space-3;
-			font-size: 1.125em;
-			
-		}
-
 		h2 {
 			font-weight: 400;
 		}
+	}
+
+	a {
+		padding: 0.8125rem $space-3;
+		font-size: 1.125em;
+		font-weight: 500;
 	}
 
 	.home & {
