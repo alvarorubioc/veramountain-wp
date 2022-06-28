@@ -91,3 +91,14 @@
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
   }
+
+
+  #top-bar {
+	background-color: color(black); 
+	position: fixed; 
+	top: -60px; /* Hide the navbar 50 px outside of the top view */
+	width: 100%; 
+	transition: top 0.3s; 
+	z-index: 9;
+	height: 60px;
+  }

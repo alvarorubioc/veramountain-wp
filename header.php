@@ -47,22 +47,23 @@
 		<?php endif; ?><!-- #menu-container -->
 
 		<?php if (has_nav_menu('secondary-menu')) : ?>
-			<div>
-				<button class="menu-button" onclick="openNav()"><?php _e('Menú','veramountain'); ?></button>
-				
+			<div class="pa-1">
+				<div class="end-xs">
+					<button class="menu-button" onclick="openNav()"><?php _e('Menú','veramountain'); ?></button>
+				</div>
 			
-			<nav id="mySidenav" class="" role="navigation" aria-label="<?php esc_attr_e('Primary Menu', 'veramountain'); ?>">
-				<button href="javascript:void(0)" class="closebtn btn mb-2" onclick="closeNav()"> <?php esc_attr_e('Cerrar', 'veramountain'); ?> &times; </button>
-				<?php
-				wp_nav_menu(array(
-					'theme_location' => 'secondary-menu',
-					'depth'          => 3,
-					'container'      => false,
-					'has_dropdown'   => true,
-					));
-				?>
-			</nav>
-			
+				<nav id="mySidenav" class="" role="navigation" aria-label="<?php esc_attr_e('Primary Menu', 'veramountain'); ?>">
+					<button href="javascript:void(0)" class="closebtn btn mb-2" onclick="closeNav()"> <?php esc_attr_e('Cerrar', 'veramountain'); ?> &times; </button>
+					<?php
+					wp_nav_menu(array(
+						'theme_location' => 'secondary-menu',
+						'depth'          => 3,
+						'container'      => false,
+						'has_dropdown'   => true,
+						));
+					?>
+				</nav>
+			</div>
 				
 		<?php endif; ?><!-- #menu-container -->
 	</header><!-- #masthead -->

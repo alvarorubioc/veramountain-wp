@@ -1,3 +1,42 @@
+<div id="top-bar">
+    <div class="container">
+
+        <div class="row pt-05 pb-05 between-xs middle-xs">
+            <div class="col-xs-12 col-md-3">
+                <?php 
+                    $link_1 = get_field('btn_hero_1');
+                    if( $link_1 ): 
+                        $link_url = $link_1['url'];
+                        $link_title = $link_1['title'];
+                        $link_target = $link_1['target'];    
+                        ?>    
+                        <a class="btn" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                <?php endif; ?>
+            </div>
+            <div class="col-xs-12 col-md-9">
+                <ul class="activities-resumen-icons">
+                    <li>
+                        <span><?php the_field('precio_actividad');?>€</span>
+                    </li>
+                    <li>
+                        <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/icons/watch.svg" />
+                        <span><?php the_field('duracion_actividad');?></span>
+                    </li>
+                    <li>
+                        <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/icons/zap.svg" />
+                        <span><?php the_field('dificultad_actividad');?></span>
+                    </li>
+                    <li>
+                        <img class="icon" src="<?php echo get_template_directory_uri(); ?>/assets/icons/map-pin.svg" />
+                        <span><?php the_field('ubicacion_actividad');?></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 <section id="hero">
     <div class="post-thumbnail"><?php the_post_thumbnail(); ?></div>
     <div class="container">
